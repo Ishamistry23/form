@@ -1,0 +1,144 @@
+        .container {
+                border: 60px solid rgb(216, 210, 204);
+                border-radius: 40px;
+                /* padding: 100px; */
+                margin-top: 30px;
+
+        }
+
+
+        .form-1 {
+                background-color: white;
+                padding: 30px;
+
+
+        }
+
+        .form-2 {
+                background-color: blue;
+                padding: 30px;
+        }
+
+        .form-select {
+                height: 6%;
+                padding: 10px;
+                font-size: 20px;
+                border: 2px solid black;
+
+        }
+
+        p {
+                font-size: 25px;
+                padding: 4px;
+                margin: 5px;
+        }
+
+        .form-control {
+                border: 2px solid black;
+
+        }
+
+        .bgcolor {
+                background-color: blue;
+
+        }
+
+        #employee {
+                height: 6%;
+        }
+
+        h1 {
+                padding: 30px;
+        }
+
+        .right ::placeholder {
+                color: black;
+                font-size: 20px;
+        }
+
+
+
+        .left ::placeholder {
+                color: black;
+                font-size: 20px;
+        }
+
+        .checkbox-lg .form-check-input {
+                top: .5rem;
+                scale: 2.4;
+                /* margin-left: 3px; */
+
+                /* margin-right: 0.7rem */
+        }
+
+
+
+        @media screen and (max-width: 560px) {
+                .right button {
+                        height: 7%;
+                        width: 40%;
+                        font-size: 20px;
+                }
+
+                .form-select {
+                        font-size: 25px;
+                        padding: 0%;
+                }
+        }
+
+        @media screen and(max-width:1000px) {
+                .right .col-6 {
+                        width: 50%;
+                }
+
+
+                .right .col-4 {
+                        width: 90%;
+                }
+
+                .right .col-12 {
+                        width: 100%;
+                }
+
+                .right .col-8 {
+                        width: 100%;
+                }
+
+                .right .col-8 ::placeholder {
+                        font-size: 4px;
+                }
+        }
+
+
+
+
+        button {
+                color: black;
+                width: 150%;
+                height: 08%;
+                background-color: aqua;
+                border-radius: 50px;
+                border: 2px solid black;
+                font-size: large;
+
+        }
+
+        button:hover {
+                background-color: azure;
+        }
+
+        h2 {
+                font-size: 50px;
+                color: white;
+        }
+
+        #new {
+                padding: 0 10px 0 10px;
+        }
+
+
+
+        #form {
+                padding: 0 10px 0 10px;
+
+        }
